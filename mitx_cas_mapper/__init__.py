@@ -3,7 +3,9 @@ This is used as an attribute mapper
 callable for django-cas per the README at 
 https://github.com/mitocw/django-cas.
 """ 
-
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 VERSION = "0.0.1"
 
 CAS_URI = 'http://192.168.2.103:8081/cas'
