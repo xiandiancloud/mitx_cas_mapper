@@ -1,6 +1,8 @@
 import os
 import sys
 
+reload(sys)
+sys.setdefaultencoding('utf-8')
 from setuptools import setup, find_packages
 from distutils.sysconfig import get_python_lib
 
